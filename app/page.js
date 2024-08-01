@@ -192,10 +192,10 @@ export default function Home() {
             <Typography variant="h6">Quantity: {quantity}</Typography>
             <Stack direction="row" spacing={2}>
               <Button variant="contained" color="primary" onClick={() => addItem(id)}>
-                Add
+                +
               </Button>
               <Button variant="contained" color="secondary" onClick={() => removeItem(id)}>
-                Remove
+                -
               </Button>
             </Stack>
           </Box>
